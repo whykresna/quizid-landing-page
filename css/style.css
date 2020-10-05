@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background-color: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0E1111;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header .navbar {
+  top: 0;
+  height: 96px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+header .navbar ul li {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+header .navbar ul li .btn {
+  border-radius: 50px;
+  padding: 6px 18px;
+  font-weight: 700;
+  background: rgb(106,158,235);
+  background: linear-gradient(90deg, rgba(106,158,235,1) 0%, rgba(0,214,234,1) 100%);
+}
+
+#headline img.logo,
+#install img.logo{
+  border-radius: 50px;
+  background-color: #000;
+}
+
+#headline .btn.btn-md,
+#install .btn.btn-md{
+  border-radius: 50px;
+  padding: 12px 24px;  
+}
+
+.owl-pagination {
+  margin-top: 24px;
+}
+
+#contact .form-group{
+  position: relative;
+  overflow: hidden;
+}
+
+#contact .form-group i{
+  position: absolute;
+  padding: 10px;
+  left: 5px;
+  color: #aaa;
+}
+
+#contact input {
+  border-radius: 50px;
+  padding: 0 16px 0 40px;
+  background-color: #f8f9ff;
+  color: #aaa;
+}
+
+#contact textarea{
+  background-color: #f8f9ff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#contact input:focus {
+  box-shadow: none;
+  color: #696969;
+}
+
+#contact button {
+  border-radius: 50px;
+}
+
+@media (max-width: 994px) {
+  .navbar-collapse {
+      position: absolute;
+      top: 90px;
+      left: -100%;
+      width: 100%;
+      transition: all 0.4s ease;
+      display: block;
+      opacity: 0.8;
+      padding-bottom: 100%;
+      z-index: 1;
+  }
+
+  .navbar-collapse.collapsing {
+      height: auto !important;
+      left: -100%;
+      margin-left: 1px;
+      transition: all 0.2s ease;
+      opacity: 0.9;
+  }
+  
+  .navbar-collapse.show {
+      margin-left: 100%;
+      transition: all 0.2s ease;
+      opacity: 1;
+  }
+}
