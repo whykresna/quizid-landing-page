@@ -32,7 +32,35 @@ header .navbar ul li .btn {
   background: linear-gradient(90deg, rgba(106,158,235,1) 0%, rgba(0,214,234,1) 100%);
 }
 
-#headline img.logo,
+@media (max-width: 994px) {
+  .navbar-collapse {
+      position: absolute;
+      top: 90px;
+      right: -100%;
+      width: 100%;
+      transition: all 0.4s ease;
+      display: block;
+      opacity: 0.8;
+      padding-bottom: 100%;
+      z-index: 1;
+  }
+
+  .navbar-collapse.collapsing {
+      height: auto !important;
+      right: -100%;
+      margin-right: 1px;
+      transition: all 0.2s ease;
+      opacity: 0.9;
+  }
+  
+  .navbar-collapse.show {
+      margin-right: 100%;
+      transition: all 0.2s ease;
+      opacity: 1;
+  }
+}
+
+/* #headline img.logo,
 #install img.logo{
   border-radius: 50px;
   background-color: #000;
@@ -42,13 +70,13 @@ header .navbar ul li .btn {
 #install .btn.btn-md{
   border-radius: 50px;
   padding: 12px 24px;  
-}
+} */
 
-.owl-pagination {
+/* .owl-pagination {
   margin-top: 24px;
-}
+} */
 
-#contact .form-group{
+/* #contact .form-group{
   position: relative;
   overflow: hidden;
 }
@@ -80,32 +108,4 @@ header .navbar ul li .btn {
 
 #contact button {
   border-radius: 50px;
-}
-
-@media (max-width: 994px) {
-  .navbar-collapse {
-      position: absolute;
-      top: 90px;
-      left: -100%;
-      width: 100%;
-      transition: all 0.4s ease;
-      display: block;
-      opacity: 0.8;
-      padding-bottom: 100%;
-      z-index: 1;
-  }
-
-  .navbar-collapse.collapsing {
-      height: auto !important;
-      left: -100%;
-      margin-left: 1px;
-      transition: all 0.2s ease;
-      opacity: 0.9;
-  }
-  
-  .navbar-collapse.show {
-      margin-left: 100%;
-      transition: all 0.2s ease;
-      opacity: 1;
-  }
-}
+} */
