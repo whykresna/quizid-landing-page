@@ -11,6 +11,27 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 50px;
+  padding: 6px 18px;
+  font-weight: 700;
+  background: rgb(106,158,235);
+  background: linear-gradient(90deg, rgba(106,158,235,1) 0%, rgba(0,214,234,1) 100%);
+}
+
+section {
+  padding: 100px 0;
+}
+
+.shadow-sm {
+  box-shadow: 0px 6px 8px -6px rgba(24, 39, 75, 0.12), 0px 8px 16px -6px rgba(24, 39, 75, 0.08);
+}
+
+.display-5 {
+  font-size: 3rem;
+}
+
 header .navbar {
   top: 0;
   height: 96px;
@@ -19,24 +40,59 @@ header .navbar {
 }
 
 header .navbar ul li {
-  margin: 0;
+  margin: 10px 0;
   text-align: center;
   font-weight: 600;
 }
 
-header .navbar ul li .btn {
-  border-radius: 50px;
-  padding: 6px 18px;
-  font-weight: 700;
-  background: rgb(106,158,235);
-  background: linear-gradient(90deg, rgba(106,158,235,1) 0%, rgba(0,214,234,1) 100%);
+header .navbar ul li {
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 600;
 }
 
-@media (max-width: 994px) {
+header .navbar ul li:hover {
+  color: #0E1111;
+}
+
+#about {
+  padding-bottom: 200px;
+}
+
+#how {
+  background-color: #00BDFA;
+  padding: 200px 0;
+}
+
+#how h1 {
+  color: #fff;
+}
+
+#play-help .nav-tabs > li > a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+}
+
+#play-help .nav-tabs > li > .active {
+  color: #00BDFA;
+}
+
+#play-help .tab-content {
+  color: #0E1111;
+  font-weight: 600;
+  background-color: #fff;
+  padding : 15px 25px;
+  border-radius: 0 10px 10px 10px;
+}
+
+@media (max-width: 991px) {
   .navbar-collapse {
       position: absolute;
       top: 90px;
-      right: -100%;
+      left: -100%;
       width: 100%;
       transition: all 0.4s ease;
       display: block;
@@ -47,30 +103,18 @@ header .navbar ul li .btn {
 
   .navbar-collapse.collapsing {
       height: auto !important;
-      right: -100%;
-      margin-right: 1px;
+      left: -100%;
+      margin-left: 1px;
       transition: all 0.2s ease;
       opacity: 0.9;
   }
   
   .navbar-collapse.show {
-      margin-right: 100%;
+      margin-left: 100%;
       transition: all 0.2s ease;
       opacity: 1;
   }
 }
-
-/* #headline img.logo,
-#install img.logo{
-  border-radius: 50px;
-  background-color: #000;
-}
-
-#headline .btn.btn-md,
-#install .btn.btn-md{
-  border-radius: 50px;
-  padding: 12px 24px;  
-} */
 
 /* .owl-pagination {
   margin-top: 24px;

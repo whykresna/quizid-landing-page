@@ -10,29 +10,32 @@
   
   <title>Quiz.ID</title>
 
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/slick.css" />
-  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
-    integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
-
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <header id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Quiz.ID" class="img-fluid" width="135"></a>
+        <a class="navbar-brand m-0" href="#headline"><img src="img/logo.png" alt="Quiz.ID" class="img-fluid" width="135"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse bg-white px-3" id="navbarSupportedContent">
+        <div class="navbar-collapse collapse bg-white" id="navbarSupportedContent">
           <ul class="navbar-nav nav-fill w-100 font-weight-bold">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">TENTANG KAMI<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about">TENTANG KAMI<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html">CARA BERMAIN<span class="sr-only">(current)</span></a>
@@ -47,7 +50,7 @@
               <a class="nav-link" href="index.html">BLOG<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-secondary" href="index.html#install"><i class="fab fa-google-play"></i>
+              <a class="btn btn-primary" href="http://bit.ly/DownloadQuizID"><i class="fab fa-google-play"></i>
                 &nbsp;<span class="font-weight-bold ">MAINKAN</span></a>
             </li>
           </ul>
@@ -56,78 +59,68 @@
     </nav>
   </header>
 
-  <!-- <section id="headline">
-    <div class="jumbotron bg-transparent mb-0 pb-0 rounded-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7 col-sm-12 m-auto">
-            <h1 class="display-4 font-weight-bold mt-4">Mainkan Kuisnya Dapatkan Hadiahnya</h1>
-            <p class="lead my-4 font-weight-light">Banyak Hadiah Menarik Setiap Harinya Dengan Mengumpulkan <i>Point</i> Dari Menjawab Kuis!</p>
-            <a href="http://bit.ly/DownloadQuizID" class="mr-lg-2" role="button">
-              <img src="img/playstore.jpg" alt="Get It On Playstore" class="logo px-4 img-fluid shadow-sm"
-                width="225"></a>
-          </div>
-          <div class="col-md-5 col-sm-12">
-            <div class="row">
-              <div class="float-right">
-                <img src="img/blob.svg" alt="">
-              </div>
+  <section id="headline">
+    <div class="container px-sm-0 px-md-0 px-lg-3 py-5">
+      <div class="row">
+        <div class="col-12 col-lg-6 m-auto">
+          <h1 class="display-5 font-weight-bold">Mainkan Kuisnya Dapatkan Hadiahnya</h1>
+          <p class="lead my-4 font-weight-normal">Banyak Hadiah Menarik Setiap Harinya Dengan Mengumpulkan <i>Point</i> Dari Menjawab Kuis!</p>
+          <a href="http://bit.ly/DownloadQuizID" role="button">
+            <img src="img/playstore.jpg" alt="Get It On Playstore" class="logo img-fluid rounded" width="210">
+          </a>
+        </div>
+        <div class="col-12 col-lg-6 m-auto">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container px-sm-0 px-md-0 px-lg-3 py-5">
+      <div class="row">
+        <div class="col-12 col-lg-6 m-auto">
+          
+        </div>
+        <div class="col-12 col-lg-6 m-auto pr-5">
+          <h1 class="display-5 font-weight-bold">Tentang Kami</h1>
+          <p class="lead my-4 font-weight-normal">Quiz.id adalah platform permainan kuis digital yang bisa di ikuti kapan pun dan dimana pun melalui smartphone kamu. Berasal dari Jember, Jawa Timur, Didirikan pada tahun 2019.</p>
+          <a href="#" class="btn btn-primary font-weight-bold" role="button">SELENGKAPNYA</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="container px-sm-0 px-md-0 px-lg-3 py-5">
+      <h1 class="display-5 font-weight-bold">Cara Bermain</h1>
+      <div id="play-help" class="row">
+        <div class="col-12 col-lg-8 m-auto">
+          <div class="container px-0 mt-5">
+            <ul class="nav nav-tabs" id="tab-cara-bermain" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="tab-registrasi" data-toggle="tab" href="#registrasi" role="tab" aria-controls="registrasi" aria-selected="true">Registrasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="tab-permainan" data-toggle="tab" href="#permainan" role="tab" aria-controls="permainan" aria-selected="false">Permainan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="tab-hadiah" data-toggle="tab" href="#hadiah" role="tab" aria-controls="hadiah" aria-selected="false">Hadiah</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="tab-content-cara-bermain">
+              <div class="tab-pane fade show active" id="registrasi" role="tabpanel" aria-labelledby="registrasi">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae doloremque deleniti ut eligendi consequatur? Tempora perferendis sed assumenda aspernatur minus necessitatibus? Voluptas nemo non illum in fugit consectetur hic ipsam!</div>
+              <div class="tab-pane fade" id="permainan" role="tabpanel" aria-labelledby="permainan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur molestias aperiam officiis. Delectus sed aliquid maxime iusto error magni, voluptatem officia quibusdam illum, vero soluta quod quidem quisquam reiciendis temporibus!</div>
+              <div class="tab-pane fade" id="hadiah" role="tabpanel" aria-labelledby="hadiah">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error nostrum repellendus provident, cum ut nobis obcaecati modi nisi minus aspernatur tempora impedit non, quibusdam repudiandae cupiditate laborum ad ipsa.</div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- <section id="about">
-    <div class="py-5 bg-transparent mb-0 pb-0 rounded-0">
-      <div class="container">
-        <div class="row mt-sm-3">
-          <div class="col-md-7 col-sm-12 m-auto">
-            
-          </div>
-          <div class="col-md-5 col-sm-12">
-            <div class="row">
-              <h1 class="display-4 font-weight-bold mt-4">Tentang Kami</h1>
-              <p class="lead my-4 font-weight-light">Quiz.id adalah platform permainan kuis digital yang bisa di ikuti kapan pun dan dimana pun melalui smartphone kamu. Berasal dari Jember, Jawa Timur, Didirikan pada tahun 2019.</p>
-            </div>
-          </div>
+        <div class="col-12 col-lg-4 m-auto">
+          
         </div>
       </div>
     </div>
-  </section> -->
-
-  <!-- <section id="features">
-    <div class="jumbotron bg-primary py-5 mb-0 rounded-0">
-      <div class="container">
-        <div class="row py-5">
-          <div class="col-md-6">
-            <img src="img/kategori-full.png" class="img-fluid d-block m-auto" width="250" alt="Kategori Quiz.id">
-          </div>
-          <div class="col-md-6 text-white align-self-center">
-            <h1 class="display-5 font-weight-bold">Tersedia Beragam Kategori Populer dan Menarik</h1>
-            <h4 class="text-light mt-3 mb-3 font-weight-light">Pilih Kategori yang ingin Kamu mainkan dan kumpulkan
-              <i>Point</i> Sebanyak-banyaknya</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="jumbotron bg-transparent py-5 mb-0 rounded-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 align-self-center">
-            <h1 class="display-5 font-weight-bold">Tukar <i>Point</i> Kamu dengan Beragam Hadiah Menarik</h1>
-            <p class="lead mt-3 mb-3 font-weight-light">Kamu bisa menukarkan <i>Point</i> yang telah didapatkan dengan
-              Pilihan Hadiah yang tersedia. Semakin banyak <i>point</i> yang kamu dapatkan semakin besar kesempatanmu
-              mendapatkan semua hadiahnya.</p>
-          </div>
-          <div class="col-md-6">
-            <img src="img/hadiah.png" class="img-fluid d-block m-auto" width="250" alt="Hadiah Quiz.id">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
+  </section>
 
   <!-- <section id="rewards">
     <div class="jumbotron bg-transparent py-5 mb-0 rounded-0">
@@ -293,12 +286,18 @@
 
   </footer> -->
 
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.3.1.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+ 
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js"></script>
   <script type="text/javascript" src="js/slick.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
-</body>
 
+</body>
 </html>
